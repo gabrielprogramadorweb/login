@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 
 body{
+    padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    overflow: hidden;
 }
-body *{
-    box-sizing: border-box;
+body {
+   
 }
 
 .main-login{
@@ -26,8 +28,12 @@ body *{
     flex-direction: column;
 }
 .left-login h1 {
+    
     color: #8B5CF6;
-    font-size: 3vw;
+    font-size: 2em;
+    top:50%;
+    margin-top: 100px;
+    transform: translateY(-20%);
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .login-image{
