@@ -117,6 +117,9 @@ body {
     bottom: 4%;
 }
 .footer{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     margin-top:1rem;
@@ -131,6 +134,9 @@ body {
     border-radius:3px;
     font-size: 0.85rem;
     width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     margin-top: 1rem;
 }
 .footer .social-field a{
