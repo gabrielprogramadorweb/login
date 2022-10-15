@@ -190,9 +190,10 @@ body {
     }
     .rigth-login{
         width: 100%;
-        height: auto;
+        height: 60%;
     }
     .card-login{
         width: 90%;
+        
     }
 }
