@@ -32,12 +32,21 @@ body {
     color: #8B5CF6;
     font-size: 2em;
     top:50%;
-    margin-top: 100px;
-    transform: translateY(-20%);
+    padding-left: 20px;
+    transform: translateY(-56);
+    text-align: left;
+    margin-top: 5%;
+    margin-bottom: 70px;
+    justify-content: center;
+    transform: translateY(-15%);
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .login-image{
-    width: 35vw;
+    width: 25vw;
+    height: auto;
+    justify-content: center;
+    top: 50%;
+    transform: translateY(-10%);
 }
 .rigth-login{
     width: 50vw;
