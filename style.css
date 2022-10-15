@@ -4,7 +4,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body {
     box-sizing: border-box;
@@ -42,7 +42,7 @@ body {
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .login-image{
-    width: 26vw;
+    width: 24vw;
     height: auto;
     justify-content: center;
     top: 80%;
@@ -174,8 +174,9 @@ body {
     }
 }
 @media only screen and (max-width:600px){
+    
     .login-image{
-        width: 70%;
+        width: 60%;
     }
     .main-login{
         flex-direction: column;
