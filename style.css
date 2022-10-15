@@ -199,4 +199,7 @@ body {
         width: 90%;
         
     }
+    .footer{
+        margin-top: -10px;
+    }
 }
